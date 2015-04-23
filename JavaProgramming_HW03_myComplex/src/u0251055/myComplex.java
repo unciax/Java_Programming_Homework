@@ -46,7 +46,12 @@ public class myComplex {
 
 	public void  Pow(int order){
 		myComplex c = new myComplex(real,imaginary);
-		for(int i=2;i<=order;i++) this.Mul(c);
+		if (order<0) {
+			for(int i=-0;i>=order;i--) this.Div(c);
+		}else if ((0<order) && (order<1)){
+			for(int i=2;i<=order;i++) this.Mul(c);
+		}
+		
 	}// End of Power operations
 
 	public void  List(){
