@@ -27,7 +27,8 @@ public class MainSub {
 							 + "Because you set layer with an even number, this process is ignored.");
 		}
 		
+		
 		input.close();
 	}//End of main
-
+	
 }//End of MainSub
