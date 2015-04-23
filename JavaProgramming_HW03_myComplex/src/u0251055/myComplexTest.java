@@ -31,7 +31,7 @@ public class myComplexTest {
 		c1.List();
 		
 		System.out.print("after power         : ");
-		c1.Pow(2);
+		c1.Pow(-3);
 		c1.List();
 	}//End of main sub
 }
