@@ -48,7 +48,7 @@ public class myComplex {
 		myComplex c = new myComplex(real,imaginary);
 		if (order<0) {
 			for(int i=-0;i>=order;i--) this.Div(c);
-		}else if ((0<order) && (order<1)){
+		}else{
 			for(int i=2;i<=order;i++) this.Mul(c);
 		}
 		
